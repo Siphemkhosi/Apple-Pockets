@@ -30,4 +30,14 @@ describe('The Apple packets price planner app', function() {
       
 
 	});
+    it ('should set the recommended price', function() {
+
+		const applePlanner = theApplePlanner();
+        
+		applePlanner.setRecommendedNumber(4);
+       
+		assert.equal(4, applePlanner.getRecommendedNumber());
+      
+
+	});
 });

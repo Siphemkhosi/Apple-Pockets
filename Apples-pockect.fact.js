@@ -2,6 +2,7 @@ function theApplePlanner(){
 let pricingApples =0;
 let pricingPackets =0;
 let numberOfPackets =0;
+let priceRecommend =0;
     function setApplePrice(pricingapple){
         pricingApples = pricingapple;
     }
@@ -24,12 +25,23 @@ let numberOfPackets =0;
       return numberOfPackets; 
     }
 
+    function setRecommendedNumber(recomend){
+        return  priceRecommend =recomend;
+      }
+        
+      function getRecommendedNumber(){
+        return  priceRecommend;
+      }
+
     return{
         setApplePrice,
         getApplePrice,
         setPacketPrice,
         getPacketPrice,
         setPacketNumber,
-        getPacketNumber
+        getPacketNumber,
+        setRecommendedNumber,
+        getRecommendedNumber
+
     }
 }
