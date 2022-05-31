@@ -1,6 +1,6 @@
 
 .container{
-    background:url(applepic/images.jpeg) no-repeat;
+    background:url(applepic/119216771-large-red-apple-with-yellow-background-perfect-for-advertising-photos-apple-is-a-healthy-fruit-.webp) no-repeat;
     /* background-color: blue; */
     background-position: center center;
     background-size: cover; 
@@ -17,13 +17,13 @@
 }
 .main, .pricing{
     font-weight: 500;
-    color: whitesmoke
+    color: black
 }
 
 
 h3{
     font-weight: 600;
-    color: white;
+    color: black
 }
 h1{
     text-align: center;
