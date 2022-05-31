@@ -13,33 +13,49 @@
         <div class="main">
 
     
-        <h4>Sellers Inputs </h4>
-        <div class="box-price"> Apple Box Price</div>
-        <input class="" placeholder=" 0.00">
-        <div class="numOf-apples"> Number of apples </div>
-        <input class=""  placeholder="0">
-        <div class="applesin-pocket" >Apples per Pocket</div>
-        <input class=" " placeholder="0" class="apple-per-pocket">
-        <div class="percent"> Percentage Profit</div>
-        <input class=""  placeholder="0%">
+        <h3>Apple Buying Data </h3>
+        <div class="box-price">Cost Price for a box of apples</div>
+        <div class="box">
+        <input class="b" type="number" placeholder=" 0.00">
+        </div>
+        <div class="numOf-apples"> Number of apples in the box </div>
+        <div class="numOf">
+        <input class="n" type="number" placeholder="0">
+        </div>
+        <div class="applesin-pocket" >The Packet size apples are sold in</div>
+       
+        <div class="applesin">
+        <input class=" a"  type="number" placeholder="0" class="apple-per-pocket">
+    </div>
+        <div class="percent"> Required Profit%</div>
+        <div class="per">
+        <input class="p" type="number" placeholder="0%">
+        </div>
+        <div class="button" >
+        <button class="button-primary Calculate" type="button" name="button">seller inputs</button>
+        </div>
          </div>
          <hr>
-         <h4>Sellers Pricing </h4>
+         <h3>Apple Price Calculation </h3>
          <div class="pricing">
-            <input type="text" name="" value="" placeholder="enter 'Apple' or 'Packet' " class="packet-applePrices">
-            <button class="CalPrice" type="button" name="button">Calculate</button>
-           <div class="pric">
-            <table>
-              <tr>
-                <td>apple price</td>
-                <td>R<span class="apples">0.00</span></td>
-              </tr>
-              <tr>
-                <td>Packet price</td>
-                <td>R<span class="packet">0.00</span></td>
-              </tr>
-            </table>
+            <div class="Num-Apples">Number of Pockets</div>
+            <div class="Num">
+            <input class="numberofpackets" type="number" placeholder=" 0.00">
+            </div>
+            <div class="Cost-price"> Cost Price Per Apple </div>
+            <div class="cost">
+            <input class="pricingapple" type="number" placeholder="0.00">
+            </div>
+            <div class="costper-packet" >Cost Price Per Packet</div>
+           
+            <div class="costper">
+            <input class="pricingpackets" type="number" placeholder="0.00" class="apple-per-pocket">
         </div>
+            <div class="Recommended"> Recommended Packet Price</div>
+            <div class="recommend">
+            <input class="r" type="number" placeholder="0.00">
+            </div>
+          
           </div>
     </div>
 </body>

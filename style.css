@@ -1,0 +1,55 @@
+
+.container{
+    background:url(applepic/images.jpeg) no-repeat;
+    /* background-color: blue; */
+    background-position: center center;
+    background-size: cover; 
+   background-color: red;
+    height: auto;
+    width: 100%;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 2000px;
+    
+  
+}
+.main, .pricing{
+    font-weight: 500;
+    color: whitesmoke
+}
+
+
+h3{
+    font-weight: 600;
+    color: white;
+}
+h1{
+    text-align: center;
+    justify-content: end;
+    font-weight: 600;
+}
+.box-price, .numOf-apples, .applesin-pocket, .percent{
+    text-align: left;
+    justify-content: left;
+  width: 20%
+
+}
+.per, .applesin, .numOf, .box, .button{
+    margin-bottom: 16px;
+    text-align: right;
+    justify-content: right;
+  width: 80%
+}
+button{
+    text-align: center;
+    justify-content: center;
+  width: 18%
+}
+ .Num, .cost, .costper, .recommend{
+    margin-bottom: 16px;
+    text-align: end;
+    justify-content: end;
+  width: 80%
+}
