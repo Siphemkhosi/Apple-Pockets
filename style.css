@@ -30,7 +30,9 @@ h1{
     justify-content: end;
     font-weight: 600;
 }
-.box-price, .numOf-apples, .applesin-pocket, .percent{
+
+
+label, .numOf-apples, .applesin-pocket, .percent{
     text-align: left;
     justify-content: left;
   width: 20%
